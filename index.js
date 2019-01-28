@@ -34,6 +34,14 @@ function appendKitten(name) {
 
 appendKitten('Broom');
 
+
+function prependKitten(name) {
+  const kittens2 = [name, ...kittens];
+  return kittens2;
+}
+
+prependKitten('Broom');
+
 function removeLastKitten() {
   const kittens2 = kittens.slice(0, kittens.length - 1);
   return kittens2;
