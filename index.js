@@ -27,7 +27,7 @@ function destructivelyRemoveFirstKitten() {
 
 destructivelyRemoveFirstKitten();
 
-function appendKitten(name){
+function appendKitten(name) {
   const kittens2 = [...kittens, name];
   return kittens2;
 }
@@ -35,8 +35,13 @@ function appendKitten(name){
 appendKitten('Broom');
 
 function removeLastKitten() {
-  const kittens3 = kittens.slice(0, kittens.length - 1);
-  return kittens3;
+  const kittens2 = kittens.slice(0, kittens.length - 1);
+  return kittens2;
 }
 
 removeLastKitten();
+
+function prependKitten(name) {
+  const kittens
+  
+}
