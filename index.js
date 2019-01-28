@@ -49,7 +49,7 @@ function prependKitten(name) {
 prependKitten('Broom');
 
 function removeFirstKitten() {
-  const kittens3 = kittens.slice();
+  const kittens3 = kittens2.slice();
   return kittens3;
 }
 
