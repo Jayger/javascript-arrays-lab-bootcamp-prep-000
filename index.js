@@ -42,6 +42,8 @@ function removeLastKitten() {
 removeLastKitten();
 
 function prependKitten(name) {
-  const kittens
-  
+  const kittens2 = [name, ...kittens];
+  return kittens2;
 }
+
+prependKitten('Broom');
