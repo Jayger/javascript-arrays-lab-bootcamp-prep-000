@@ -49,6 +49,8 @@ function prependKitten(name) {
 prependKitten('Broom');
 
 function removeFirstKitten() {
-  const kittens2 = kittens.slice();
-  return kittens2;
+  const kittens3 = kittens.slice();
+  return kittens3;
 }
+
+removeFirstKitten();
