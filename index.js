@@ -47,3 +47,10 @@ function prependKitten(name) {
 }
 
 prependKitten('Broom');
+
+function removeFirstKitten() {
+  const kittens2 = kittens.slice(0);
+  return kittens2;
+}
+
+removeFirstKitten();
