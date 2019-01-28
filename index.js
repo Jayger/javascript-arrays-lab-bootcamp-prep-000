@@ -35,5 +35,8 @@ function appendKitten(name){
 appendKitten('Broom');
 
 function removeLastKitten() {
-  const kittens3 = kittens.slice(0, kittens - 1);
+  const kittens3 = kittens.slice(0, kittens.length - 1);
+  return kittens3;
 }
+
+removeLastKitten();
