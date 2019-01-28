@@ -49,12 +49,6 @@ function removeLastKitten() {
 
 removeLastKitten();
 
-function prependKitten(name) {
-  const kittens2 = [name, ...kittens];
-  return kittens2;
-}
-
-prependKitten('Broom');
 
 function removeFirstKitten() {
   const kittens3 = kittens.slice();
